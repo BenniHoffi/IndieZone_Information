@@ -19,7 +19,7 @@
                 </FormKit>
             </div>
         </div>
-        <div class="flex items-center justify-around w-full h-10 border-t sm:h-14">
+        <div class="flex items-center justify-around w-full h-10 border-t shrink-0 sm:h-14">
             <div>
                 <NuxtLink class="underline" to="/Impressum">{{ $t("p12.5") }}</NuxtLink>
             </div>
