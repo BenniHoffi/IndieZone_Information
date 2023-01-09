@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Myriad Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/MyriadPro-Light.woff') format('woff');
+    }
+
+@layer base {
+    h1 {
+        @apply text-titleSmall sm:text-title text-secondary mb-5;
+    }
+    h2 {
+        @apply text-heading sm:text-titleSmall text-secondary mb-3;
+    }
+    h3 {
+        @apply text-subtitle text-secondary mb-2;
+    }
+    p {
+        @apply text-text;
+    }
+}
+
+@layer utilities {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type=number] {
+      -moz-appearance: textfield;
+      /* Firefox */
+    }
+}
