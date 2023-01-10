@@ -2,9 +2,9 @@
 <template>
     <div class="flex flex-col h-screen">
         <NuxtLink class="absolute px-6 py-2 text-white rounded-lg top-6 right-6 bg-secondary text-subtitle" to="/">Zurück zur Startseite</NuxtLink>
-        <div class="p-4 sm:p-36 grow">
-            <h2 class="mt-20 mb-8 sm:mb-28">Impressum.</h2>
-            <div class="mb-4 space-y-1 text-subtitle sm:mb-14">
+        <div class="p-4 lg:p-36 grow">
+            <h2 class="mt-20 mb-8 lg:mb-28">Impressum.</h2>
+            <div class="mb-4 space-y-1 text-subtitle lg:mb-14">
                 <p>Klara Prettl</p>
                 <p>IndieZone</p>
                 <p>Goldbergstraße 31</p>
@@ -22,7 +22,7 @@
                 </p>
             </div>
         </div>
-        <div class="flex items-center justify-around w-full h-10 border-t shrink-0 sm:h-14">
+        <div class="flex items-center justify-around w-full h-10 border-t shrink-0 lg:h-14">
             <div><NuxtLink class="underline" to="/Impressum">Impressum</NuxtLink></div>
             <div>&copy; 2023 IndieZone</div>
             <div class="invisible">Placeholder</div>

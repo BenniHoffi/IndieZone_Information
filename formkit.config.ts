@@ -9,14 +9,14 @@ const textClassification = {
             text-secondary
             formkit-invalid:text-red`,
     inner: `relative
-            border
             rounded-lg
             formkit-invalid:border-red-500
-            formkit-invalid:focus-within:border-neutral
+            formkit-invalid:focus-within:border-0
             focus-within:ring
             focus-within:ring-2
             focus-within:ring-secondary`,
     input: `relative
+            bg-[#FEFFF8]
             rounded-lg
             shadow-inner-lg
             w-full
@@ -42,8 +42,9 @@ const textClassification = {
 const buttonClassification = {
     wrapper: `mb-1 flex place-content-end`,
     input: `bg-secondary
-            hover:scale-110
-            transition-transform
+            hover:shadow-lg
+            hover:shadow-neutral
+            transition-shadow
             text-base-100
             text-text
             rounded-lg

@@ -11,11 +11,11 @@
     })
 </script>
 <template>
-    <div ref="target" class="relative flex flex-col items-center justify-center gap-4 p-4 sm:flex-row sm:gap-10 sm:p-36">
-        <div class="flex items-end justify-end w-auto h-1/2 sm:h-auto sm:w-1/2">
+    <div ref="target" class="relative flex flex-col items-center justify-center gap-4 p-4 lg:flex-row lg:gap-10 lg:p-36">
+        <div class="flex items-end justify-end w-auto h-1/2 lg:h-auto lg:w-1/2">
             <img :class="imgClass" class="w-full transition-transform duration-1000" src="~/assets/MarkLaptopGreen.png" alt="Stickfigure Mark" />
         </div>
-        <div :class="textClass" class="w-auto transition-transform duration-1000 h-1/2 sm:h-auto sm:w-1/2">
+        <div :class="textClass" class="w-auto transition-transform duration-1000 h-1/2 lg:h-auto lg:w-1/2">
             <h2>{{ $t("p5.1") }}</h2>
             <h3>
                 {{ $t("p5.2") }}

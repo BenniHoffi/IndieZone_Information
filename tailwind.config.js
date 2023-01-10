@@ -32,8 +32,8 @@ export default {
         themes: [
             {
                 light: {
-                    primary: "#BBD800",
-                    secondary: "#1A2933",
+                    primary: "#99D100",
+                    secondary: "#020233",
                     "secondary-focus": "#1E2F3C",
                     accent: "#ebf0c5",
                     neutral: "#777777",
