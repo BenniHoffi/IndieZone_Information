@@ -9,7 +9,7 @@ import de from "./locales/de.json"
 export default defineNuxtConfig({
     modules: ["@nuxtjs/tailwindcss", "@formkit/nuxt", "@nuxtjs/i18n", "@nuxtjs/color-mode", "@vueuse/nuxt", "@formkit/nuxt", "@nuxtjs/i18n"],
     nitro: {
-        preset: "cloudflare",
+        preset: "cloudflare-pages",
     },
     i18n: {
         locales: [
