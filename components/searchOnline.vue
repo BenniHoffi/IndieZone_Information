@@ -12,7 +12,7 @@
 <template>
     <div class="relative flex flex-col items-center justify-center">
         <LangSelect />
-        <div :class="strip" class="absolute transition-all duration-1000 ease-in delay-1000 h-[43px] top-[196px] bg-primary" />
+        <div :class="strip" class="absolute transition-all duration-1000 ease-in delay-1000 h-[42px] top-[197px] bg-primary" />
         <img
             :class="img"
             class="absolute transition-all duration-1000 ease-in delay-1000 top-16"
