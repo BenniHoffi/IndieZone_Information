@@ -17,13 +17,7 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/supabase",
     ],
-    nitro: {
-        output: {
-            dir: "output",
-            serverDir: "output/server",
-            publicDir: "output/public",
-        },
-    },
+    target: "static",
     i18n: {
         locales: [
             { code: "en", iso: "en-US", file: "locales/en.json", dir: "ltr" },
