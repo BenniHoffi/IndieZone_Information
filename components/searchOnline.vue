@@ -31,7 +31,7 @@ setTimeout(() => {
       <h3>{{ $t("p1.3") }}</h3>
     </div>
     <img
-      class="w-full p-4 sm:p-0 sm:absolute sm:top-4 sm:right-4 sm:w-1/3 sm:max-w-xl sm:max-h-40"
+      class="w-full p-4 sm:p-0 sm:absolute sm:top-10 sm:right-10 sm:w-[22%] sm:max-w-md"
       src="~/assets/EFRE-Banner.jpg"
       alt="Banner Europäischer Fonds für regionale Entwicklung"
     />
