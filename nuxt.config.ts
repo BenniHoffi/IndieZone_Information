@@ -18,7 +18,11 @@ export default defineNuxtConfig({
         "@nuxtjs/supabase",
     ],
     nitro: {
-        preset: "cloudflare-pages",
+        output: {
+            dir: "output",
+            serverDir: "output/server",
+            publicDir: "output/public",
+        },
     },
     i18n: {
         locales: [
