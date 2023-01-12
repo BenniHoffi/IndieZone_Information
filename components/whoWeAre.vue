@@ -21,7 +21,6 @@
             <NuxtLink
               href="mailto:info@indiezone.de"
               class="text-[#0B64A8] underline text-annotation lg:text-text"
-              href="#"
               >{{ $t("p10.5") }}</NuxtLink
             >
           </div>
@@ -43,7 +42,6 @@
             <NuxtLink
               href="mailto:info@indiezone.de"
               class="text-[#0B64A8] underline text-annotation lg:text-text"
-              href="#"
               >{{ $t("p10.5") }}</NuxtLink
             >
           </div>
@@ -65,7 +63,6 @@
             <NuxtLink
               href="mailto:info@indiezone.de"
               class="text-[#0B64A8] underline text-annotation lg:text-text"
-              href="#"
               >{{ $t("p10.5") }}</NuxtLink
             >
           </div>
