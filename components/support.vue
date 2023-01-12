@@ -36,14 +36,15 @@
       class="flex flex-col lg:flex-row justify-center self-end items-center gap-4 lg:gap-64"
     >
       <p class="w-full lg:w-1/2 text-secondary text-annotation lg:text-subtitle">
-        Bisher finanzieren wir uns aus eigenen Mitteln und einer Förderung der
-        Europäischen Union
+        {{ $t("p11.8") }}
       </p>
-      <img
-        class="w-full lg:w-1/2"
-        src="~/assets/EFRE-Banner.jpg"
-        alt="Banner Europäischer Fonds für regionale Entwicklung"
-      />
+      <div class="w-full lg:w-1/2 self-start">
+        <img
+          class="w-full lg:max-w-md"
+          src="~/assets/EFRE-Banner.jpg"
+          alt="Banner Europäischer Fonds für regionale Entwicklung"
+        />
+      </div>
     </div>
   </div>
 </template>

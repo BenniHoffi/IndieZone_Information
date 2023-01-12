@@ -7,7 +7,16 @@ import de from "./locales/de.json"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ["@nuxtjs/tailwindcss", "@formkit/nuxt", "@nuxtjs/i18n", "@nuxtjs/color-mode", "@vueuse/nuxt", "@formkit/nuxt", "@nuxtjs/i18n"],
+    modules: [
+        "@nuxtjs/tailwindcss",
+        "@formkit/nuxt",
+        "@nuxtjs/i18n",
+        "@nuxtjs/color-mode",
+        "@vueuse/nuxt",
+        "@formkit/nuxt",
+        "@nuxtjs/i18n",
+        "@nuxtjs/supabase",
+    ],
     nitro: {
         preset: "cloudflare-pages",
     },

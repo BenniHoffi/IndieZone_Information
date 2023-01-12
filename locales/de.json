@@ -72,13 +72,17 @@
         "4": "Unterstütze uns bei der Finanzierung",
         "5": "Engagiere dich als Händler-Botschafter",
         "6": "Kontaktieren.",
-        "7": "E-Mail an "
+        "7": "E-Mail an ",
+        "8": "Bisher finanzieren wir uns aus eigenen Mitteln und einer Förderung der Europäischen Union"
     },
     "p12": {
         "1": "Oder möchtest du auf dem Laufenden bleiben?",
         "2": "Meine Mail-Adresse...",
         "3": "Der Newsletter informiert dich über die Release-Daten in den Städten, Fortschritte in der Finanzierung, Entwicklung und Kundenzahl.",
         "4": "Anmeldung zum Newsletter",
-        "5": "Impressum"
+        "5": "Impressum",
+        "6": "Ups, da ist etwas schiefgelaufen.",
+        "7": "Vielen Dank, dass du dich für IndieZone interessierst!",
+        "8": "Diese Email-Adress ist bereits für unseren Newsletter registriert."
     }
 }

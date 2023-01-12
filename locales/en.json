@@ -72,13 +72,17 @@
         "4": "Support us with the financing",
         "5": "Get involved as a retailer ambassador",
         "6": "Contact us",
-        "7": "Send email to "
+        "7": "Send email to ",
+        "8": "So far we have financed ourselves from our own resources and subsidies from the European Union."
     },
     "p12": {
         "1": "Or stay up to date?",
         "2": "My email adress…",
         "3": "The newsletter informs you about release dates in the cities, progress in financing, development and customer numbers.",
         "4": "Sign Up",
-        "5": "legal notice"
+        "5": "legal notice",
+        "6": "Oops, something went wrong.",
+        "7": "Thank you for being interested in IndieZone",
+        "8": "This email adress is already registered for our newsletter."
     }
 }
