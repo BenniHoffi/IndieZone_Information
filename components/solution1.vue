@@ -1,4 +1,5 @@
 <script setup lang="ts">
+    const { t } = useI18n()
     const target = ref(null)
     const imgClass = ref("-translate-x-[1000px] translate-y-[1000px]")
     const textClass = ref("translate-y-[1000px]")
@@ -16,11 +17,11 @@
             <img :class="imgClass" class="w-full transition-transform duration-1000" src="~/assets/MarkLaptopGreen.png" alt="Stickfigure Mark" />
         </div>
         <div :class="textClass" class="w-auto transition-transform duration-1000 h-1/2 lg:h-auto lg:w-1/2">
-            <h2>{{ $t("p5.1") }}</h2>
+            <h2>{{ t("p5.1") }}</h2>
             <h3>
-                {{ $t("p5.2") }}
-                <b>{{ $t("p5.3") }}</b>
-                {{ $t("p5.4") }}
+                {{ t("p5.2") }}
+                <b>{{ t("p5.3") }}</b>
+                {{ t("p5.4") }}
             </h3>
         </div>
     </div>
