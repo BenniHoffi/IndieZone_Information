@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         "@vueuse/nuxt",
         "@formkit/nuxt",
         "@nuxtjs/i18n",
-        "@nuxtjs/supabase",
+        // "@nuxtjs/supabase",
     ],
     i18n: {
         locales: [
