@@ -17,9 +17,6 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/supabase",
     ],
-    nitro: {
-        preset: "cloudflare-pages",
-    },
     i18n: {
         locales: [
             { code: "en", iso: "en-US", file: "locales/en.json", dir: "ltr" },
