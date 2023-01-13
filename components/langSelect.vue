@@ -1,6 +1,8 @@
 <script setup lang="ts">
     import { LanguageIcon } from "@heroicons/vue/24/outline"
 
+    const switchLocalePath = useSwitchLocalePath()
+
     const { locale } = useI18n()
 
     const target = ref(null)
@@ -14,6 +16,7 @@
     const formKitConfig: any = inject(Symbol.for("FormKitConfig"))
     watch(locale, () => {
         formKitConfig.locale = locale.value
+        navigateTo(switchLocalePath(locale.value))
     })
 </script>
 <template>

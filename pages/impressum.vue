@@ -1,7 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    const { t } = useI18n()
+
+    const localePath = useLocalePath()
+
+    useHead({
+        link: [{ rel: "canonical", href: "https://indiezone.de/" }],
+    })
+</script>
 <template>
     <div class="flex flex-col h-screen">
-        <NuxtLink class="absolute px-6 py-2 text-white rounded-lg top-6 right-6 bg-secondary text-subtitle" to="/">Zurück zur Startseite</NuxtLink>
+        <NuxtLink class="absolute px-6 py-2 text-white rounded-lg top-6 right-6 bg-secondary text-subtitle" :to="localePath('/')">{{
+            t("p13.1")
+        }}</NuxtLink>
         <div class="p-4 lg:p-36 grow">
             <h2 class="mt-20 mb-8 lg:mb-28">Impressum.</h2>
             <div class="mb-4 space-y-1 text-subtitle lg:mb-14">
@@ -23,7 +33,9 @@
             </div>
         </div>
         <div class="flex items-center justify-around w-full h-10 border-t shrink-0 lg:h-14">
-            <div><NuxtLink class="underline" to="/Impressum">Impressum</NuxtLink></div>
+            <div>
+                <NuxtLink class="underline" :to="localePath('/impressum')">{{ t("p12.5") }}</NuxtLink>
+            </div>
             <div>&copy; 2023 IndieZone</div>
             <div class="invisible">Placeholder</div>
         </div>

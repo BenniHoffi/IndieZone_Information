@@ -1,12 +1,16 @@
 <script setup lang="ts">
+    import { Database } from "composables/database.types"
+
+    const localePath = useLocalePath()
     const { t } = useI18n()
-    const client = useSupabaseClient()
+    const client = useSupabaseClient<Database>()
+
     const emailSent = ref(false)
     const errorDiv = ref(false)
     const duplicateError = ref(false)
 
     async function submit(data: { email: string }) {
-        const { error } = await client.from("newsletter_emails").insert([{ email: data.email }])
+        const { error } = await client.from("newsletter_emails").insert<{ email: string }>([{ email: data.email }])
         if (error) {
             if (error.code === "23505") {
                 duplicateError.value = true
@@ -45,7 +49,7 @@
         </div>
         <div class="flex items-center justify-around w-full h-10 border-t shrink-0 lg:h-14">
             <div>
-                <NuxtLink class="underline" to="/Impressum">{{ t("p12.5") }}</NuxtLink>
+                <NuxtLink class="underline" :to="localePath('/impressum')">{{ t("p12.5") }}</NuxtLink>
             </div>
             <div>&copy; 2023 IndieZone</div>
             <div class="invisible">Placeholder</div>
