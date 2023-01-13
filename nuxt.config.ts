@@ -17,6 +17,10 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/supabase",
     ],
+    supabase: {
+        url: "https://kklreqfmfnevrdrnbmnb.supabase.co",
+        key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtrbHJlcWZtZm5ldnJkcm5ibW5iIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTU4MTIwNjIsImV4cCI6MTk3MTM4ODA2Mn0.9UNv1-ImVAYYS4hkNbDf7mga3HJQDgezn4vJsrQL03E",
+    },
     i18n: {
         locales: [
             { code: "en", iso: "en-US", file: "locales/en.json", dir: "ltr" },
@@ -47,7 +51,7 @@ export default defineNuxtConfig({
             title: "IndieZone",
             viewport: "width=device-width, initial-scale=1, maximum-scale=1",
             charset: "utf-8",
-            meta: [{ name: "description", content: "My amazing site" }],
+            meta: [{ name: "description", content: "online stöbern - lokal kaufen" }],
             link: [{ rel: "icon", href: "/favicons/favicon.ico" }],
         },
     },
