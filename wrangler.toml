@@ -1,1 +1,7 @@
+name = "indiezone"
+workers_dev = true
 node_compat = true
+compatibility_date = "2022-09-10"
+
+[site]
+bucket = ".output/public"
