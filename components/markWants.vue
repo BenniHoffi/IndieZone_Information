@@ -16,7 +16,7 @@
 <template>
     <div ref="target" class="flex flex-col items-center justify-center p-4">
         <h2 class="mb-10">{{ t("p4.1") }}</h2>
-        <ul class="space-y-2 list-none text-text lg:text-heading text-secondary">
+        <ul class="space-y-2 list-none text-text lg:text-subtitle text-secondary">
             <li :class="circleClass" class="relative flex items-center gap-1 transition-all duration-1000 ease-in lg:gap-2">
                 <img class="-translate-y-1 h-9 lg:h-11" src="~/assets/Circle.png" />
                 <img :class="checkClass" class="absolute transition-transform duration-1000 -translate-y-1 h-9 lg:h-11" src="~/assets/Check.png" />

@@ -1,6 +1,7 @@
 {
     "p1": {
-        "1": "online stöbern - lokal einkaufen",
+        "1": "online stöbern - ",
+        "1-5": "lokal kaufen",
         "2": "IndieZone ist die Brücke zwischen Onlineshopping und lokalem Einkaufen.",
         "3": "Der bequemste Weg, nachhaltig einzukaufen."
     },
@@ -33,7 +34,7 @@
     "p6": {
         "1": "Unsere Lösung",
         "2": "Mark besucht den Händler in seinem Laden, lässt sich bei der Auswahl helfen und bekommt direkt alles, was er braucht.",
-        "3": "Außerdem hat Mark neben ein paar hilfreichen Tipps auch noch eine Idee für das Geburtstagsgeschenk seines besten Freundes gefunden."
+        "3": "Dazu bekommt Mark noch Tipps und neue Ideen."
     },
     "p7": {
         "1": "Mark ist glücklich...",
@@ -76,7 +77,7 @@
         "8": "Bisher finanzieren wir uns aus eigenen Mitteln und einer Förderung der Europäischen Union"
     },
     "p12": {
-        "1": "Oder möchtest du auf dem Laufenden bleiben?",
+        "1": "Möchtest du auf dem Laufenden bleiben?",
         "2": "Meine Mail-Adresse...",
         "3": "Der Newsletter informiert dich über die Release-Daten in den Städten, Fortschritte in der Finanzierung, Entwicklung und Kundenzahl.",
         "4": "Anmeldung zum Newsletter",

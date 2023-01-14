@@ -23,6 +23,7 @@ export default defineNuxtConfig({
             { code: "de", iso: "de-DE", file: "locales/de.json", dir: "ltr" },
         ],
         defaultLocale: "de",
+        baseUrl: "https://indiezone.de",
         vueI18n: {
             legacy: false,
             globalInjection: true,

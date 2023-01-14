@@ -23,8 +23,8 @@
     }
 </script>
 <template>
-    <div class="flex flex-col items-center justify-center px-4">
-        <div class="flex flex-col items-center justify-center grow">
+    <div class="flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center px-4 grow">
             <h2 class="mb-20 lg:mb-40">{{ t("p12.1") }}</h2>
             <div v-if="!emailSent" class="w-full sm:w-2/3 lg:w-1/2">
                 <FormKit :submit-label="t('p12.4')" :config="{ validationVisibility: 'submit' }" type="form" @submit="submit">

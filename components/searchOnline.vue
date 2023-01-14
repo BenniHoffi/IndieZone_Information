@@ -19,14 +19,21 @@
             class="absolute transition-all duration-1000 ease-in delay-1000 top-16"
             src="~/assets/IndieZoneLogoBordered.png"
             alt="IndieZone Logo" />
-        <div :class="text" class="flex grow flex-col items-center text-center transition-opacity duration-1000 ease-in delay-[2000ms] px-2 pt-72">
-            <h1>{{ t("p1.1") }}</h1>
-            <h3>{{ t("p1.2") }}</h3>
-            <h3>{{ t("p1.3") }}</h3>
+        <div
+            :class="text"
+            class="flex grow flex-col items-center text-center transition-opacity duration-1000 ease-in delay-[2000ms] px-2 pt-72 lg:pt-96">
+            <h1 class="text-heading lg:text-title">
+                {{ t("p1.1") }} <br class="sm:hidden" />
+                {{ t("p1.1-5") }}
+            </h1>
+            <h3 class="text-text lg:text-subtitle">{{ t("p1.2") }}</h3>
+            <h3 class="text-text lg:text-subtitle">{{ t("p1.3") }}</h3>
         </div>
-        <img
-            class="w-full p-4 sm:p-0 sm:absolute sm:top-10 sm:right-10 sm:w-[22%] sm:max-w-md"
-            src="~/assets/EFRE-Banner.jpg"
-            alt="Banner Europäischer Fonds für regionale Entwicklung" />
+        <div>
+            <img
+                class="w-full p-4 mb-20 sm:mb-0 sm:p-0 sm:absolute sm:top-10 sm:right-10 sm:w-[22%] sm:max-w-md"
+                src="~/assets/EFRE-Banner.jpg"
+                alt="Banner Europäischer Fonds für regionale Entwicklung" />
+        </div>
     </div>
 </template>
