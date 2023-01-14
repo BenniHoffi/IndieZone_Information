@@ -17,7 +17,7 @@
             <div :class="textClass" class="flex flex-col justify-start h-auto transition-transform duration-1000 lg:w-2/3">
                 <div class="self-end">
                     <h2 class="mb-5 lg:mb-10">{{ t("p8.1") }}</h2>
-                    <ul class="pl-4 space-y-1 list-disc list-outside lg:space-y-2 lg:pl-0 text-text lg:text-subtitle text-secondary">
+                    <ul class="pl-4 space-y-1 list-disc list-outside lg:space-y-2 lg:pl-4 text-text lg:text-subtitle text-secondary">
                         <li>{{ t("p8.2") }}</li>
                         <li>{{ t("p8.3") }}</li>
                         <li>{{ t("p8.4") }}</li>
