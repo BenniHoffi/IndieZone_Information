@@ -4,7 +4,7 @@ const { t } = useI18n();
 <template>
   <div class="flex flex-col items-center justify-center p-2 pt-10 lg:p-8">
     <h2>{{ t("p9.1") }}</h2>
-    <div class="overflow-hidden">
+    <div class="h-full lg:h-auto overflow-hidden">
       <img
         class="hidden w-full max-w-7xl lg:block"
         src="~/assets/IndieZoneScreenshot.png"
