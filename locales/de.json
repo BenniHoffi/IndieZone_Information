@@ -29,12 +29,15 @@
         "1": "Unsere Lösung",
         "2": "Mark findet auf ",
         "3": "IndieZone.de",
-        "4": "alles, was er braucht und lässt sich gleich die beste Route zu seinen Favoriten zeigen."
+        "4": "alles, was er braucht in den Läden in seiner Umgebung. Dabei lässt er sich auch direkt die beste Route zu seinen Favoriten zeigen."
     },
     "p6": {
         "1": "Unsere Lösung",
         "2": "Mark besucht den Händler in seinem Laden, lässt sich bei der Auswahl helfen und bekommt direkt alles, was er braucht.",
         "3": "Dazu bekommt Mark noch Tipps und neue Ideen."
+    },
+    "concept": {
+        "1": "Unser Konzept"
     },
     "p7": {
         "1": "Mark ist glücklich...",
@@ -49,18 +52,18 @@
     "p8": {
         "1": "... der Händler auch",
         "2": "Präsentiert seine Produkte mit großer Reichweite",
-        "3": "Hat kaum Aufwand und Kosten verglichen mit einer eigenen Website",
-        "4": "Verkauft seine Produkte direkt dem Kunden ohne Zwischenhändler und Gebühren",
-        "5": "Braucht keine Versandmitarbeiter und extra Verpackungen",
-        "6": "Spart sich Widerrufe und Retouren",
-        "7": "Bekommt direkt sein Geld",
-        "8": "Schafft eine persönliche Kundenbindung"
+        "3": "Schafft eine persönliche Kundenbindung",
+        "4": "Hat kaum Aufwand und Kosten verglichen mit einer eigenen Website",
+        "5": "Verkauft seine Produkte direkt dem Kunden ohne Zwischenhändler und Gebühren",
+        "6": "Braucht keine Versandmitarbeiter und extra Verpackungen",
+        "7": "Spart sich Widerrufe und Retouren",
+        "8": "Bekommt direkt sein Geld"
     },
     "p9": {
         "1": "Wie es aussieht:"
     },
     "p10": {
-        "1": "Wer wir sind:",
+        "1": "Das Team",
         "2": "Web-Entwicklung",
         "3": "Geschäftsleitung",
         "4": "Design & Marketing",

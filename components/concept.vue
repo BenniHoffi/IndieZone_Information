@@ -3,17 +3,17 @@ const { t } = useI18n();
 </script>
 <template>
   <div class="flex flex-col items-center justify-center p-2 pt-10 lg:p-8">
-    <h2>{{ t("p9.1") }}</h2>
+    <h2>{{ t("concept.1") }}</h2>
     <div class="overflow-hidden">
       <img
         class="hidden w-full max-w-7xl lg:block"
-        src="~/assets/IndieZoneScreenshot.png"
-        alt="IndieZone.de Website Preview"
+        src="~/assets/Concept.png"
+        alt="Flowchart of our concept"
       />
       <img
         class="w-full lg:hidden"
-        src="~assets/IndieZoneScreenshotMobile.png"
-        alt="IndieZone.de Website Preview"
+        src="~assets/ConceptMobile.png"
+        alt="Flowchart of our concept"
       />
     </div>
   </div>

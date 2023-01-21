@@ -36,6 +36,9 @@
         "2": "Mark visits the retailer in his shop, he gets help with the selection and gets everything he needs right away.",
         "3": "Mark also gets tips and new ideas."
     },
+    "concept": {
+        "1": "Our concept:"
+    },
     "p7": {
         "1": "Mark is happy…",
         "2": "He has a large Selection from home",
@@ -60,7 +63,7 @@
         "1": "What it looks like:"
     },
     "p10": {
-        "1": "Who we are:",
+        "1": "The Team:",
         "2": "Web-Development",
         "3": "Management",
         "4": "Design & Marketing",
