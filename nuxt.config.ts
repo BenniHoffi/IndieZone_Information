@@ -31,6 +31,11 @@ export default defineNuxtConfig({
             fallbackLocale: "en",
             messages: { en, de },
         },
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: "i18n_redirected",
+            redirectOn: "root",
+        },
     },
     app: {
         head: {
