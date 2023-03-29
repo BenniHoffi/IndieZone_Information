@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         "@formkit/nuxt",
         "@nuxtjs/i18n",
         "@nuxtjs/supabase",
+        "nuxt-schema-org",
     ],
     i18n: {
         locales: [
@@ -63,5 +64,16 @@ export default defineNuxtConfig({
                 defaultSFCLang: "yaml",
             }),
         ],
+    },
+    runtimeConfig: {
+        public: {
+            siteUrl: "https://indiezone.de",
+        },
+    },
+    schemaOrg: {
+        host: "https://indiezone.de",
+        inLanguage: "de",
+        title: "IndieZone",
+        description: "online stöbern - lokal kaufen",
     },
 })

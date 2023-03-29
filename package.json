@@ -20,6 +20,7 @@
         "@formkit/nuxt": "^1.0.0-beta.12",
         "@heroicons/vue": "^2.0.13",
         "@vueuse/nuxt": "^9.10.0",
-        "daisyui": "^2.46.1"
+        "daisyui": "^2.46.1",
+        "nuxt-schema-org": "^2.1.2"
     }
 }
