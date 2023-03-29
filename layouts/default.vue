@@ -1,13 +1,13 @@
 <script setup lange="ts">
     useSchemaOrg([
         defineOrganization({
-            name: "Indiezone",
+            name: "IndieZone",
             logo: "/favicons/android-chrome-512x512.png",
             email: "info@indiezone.de",
         }),
         defineWebSite({
             url: "https://indiezone.de",
-            name: "Indiezone",
+            name: "IndieZone",
             description: "online stöbern - lokal kaufen",
         }),
         defineWebPage(),
