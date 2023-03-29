@@ -7,6 +7,9 @@ import de from "./locales/de.json"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    nitro: {
+        preset: "cloudflare-pages",
+    },
     modules: [
         "nuxt-schema-org",
         "@nuxtjs/tailwindcss",
