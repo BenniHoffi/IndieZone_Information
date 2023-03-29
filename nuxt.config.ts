@@ -8,6 +8,7 @@ import de from "./locales/de.json"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     modules: [
+        "nuxt-schema-org",
         "@nuxtjs/tailwindcss",
         "@formkit/nuxt",
         "@nuxtjs/i18n",
@@ -16,7 +17,6 @@ export default defineNuxtConfig({
         "@formkit/nuxt",
         "@nuxtjs/i18n",
         "@nuxtjs/supabase",
-        "nuxt-schema-org",
     ],
     i18n: {
         locales: [
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            siteUrl: "https://indiezone.de",
+            siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://indiezone.de",
         },
     },
     schemaOrg: {
