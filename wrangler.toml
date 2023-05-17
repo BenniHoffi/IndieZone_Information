@@ -1,4 +1,4 @@
-name = "indiezonetest"
+name = "indiezone-information"
 main = "./.output/server/index.mjs"
 workers_dev = true
 node_compat = true

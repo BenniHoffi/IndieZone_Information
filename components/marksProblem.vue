@@ -14,7 +14,7 @@
         <div class="flex flex-col items-center justify-center gap-4 lg:max-w-6xl lg:gap-32 lg:flex-row">
             <div class="flex flex-col justify-end h-1/2 lg:w-1/2">
                 <h2>{{ t("p3.1") }}</h2>
-                <h3 class="text-text lg:text-subtitle">
+                <h3 class="text-annotation xs:text-text lg:text-subtitle">
                     {{ t("p3.2") }}
                     <br />
                     {{ t("p3.3") }}

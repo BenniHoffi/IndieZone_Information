@@ -13,11 +13,12 @@
 </script>
 <template>
     <div ref="target" class="flex items-center justify-center p-4">
-        <div class="flex flex-col items-center justify-start h-full gap-4 lg:max-w-6xl lg:gap-32 lg:flex-row">
-            <div :class="textClass" class="flex flex-col justify-start h-auto transition-transform duration-1000 lg:w-2/3">
+        <div class="flex flex-col items-center justify-center h-full gap-4 lg:max-w-6xl lg:gap-32 lg:flex-row">
+            <div :class="textClass" class="flex flex-col justify-start transition-transform duration-1000 lg:w-2/3">
                 <div class="self-end">
                     <h2 class="mb-5 lg:mb-10">{{ t("p8.1") }}</h2>
-                    <ul class="pl-4 space-y-1 list-disc list-outside lg:space-y-2 lg:pl-4 text-text lg:text-subtitle text-secondary">
+                    <ul
+                        class="pl-4 space-y-1 list-disc list-outside lg:space-y-2 lg:pl-4 text-annotation xs:text-text lg:text-subtitle text-secondary">
                         <li>{{ t("p8.2") }}</li>
                         <li>{{ t("p8.3") }}</li>
                         <li>{{ t("p8.4") }}</li>

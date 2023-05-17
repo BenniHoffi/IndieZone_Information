@@ -7,7 +7,7 @@
             <h2 class="justify-self-end">{{ t("p11.1") }}</h2>
             <div class="flex flex-col items-center justify-center w-full gap-4 h-1/2 lg:gap-64 lg:flex-row">
                 <div class="h-2/3 lg:h-auto lg:w-1/2">
-                    <ul class="pl-4 space-y-2 list-disc text-text lg:text-subtitle text-secondary">
+                    <ul class="pl-4 space-y-2 list-disc text-annotation xs:text-text sm:text-subtitle text-secondary">
                         <li>{{ t("p11.2") }}</li>
                         <li>{{ t("p11.3") }}</li>
                         <li>{{ t("p11.4") }}</li>
@@ -31,11 +31,11 @@
                 </div> -->
                 </div>
             </div>
-            <div class="flex flex-col items-center self-end justify-center gap-4 lg:flex-row lg:gap-64">
-                <p class="w-full lg:w-1/2 text-secondary text-annotation lg:text-subtitle">
+            <div class="flex flex-col items-center self-center justify-center gap-4 sm:w-2/3 lg:w-full lg:flex-row lg:gap-64">
+                <div class="w-full lg:w-1/2 text-secondary text-annotation lg:text-subtitle">
                     {{ t("p11.8") }}
-                </p>
-                <div class="self-start w-full lg:w-1/2">
+                </div>
+                <div class="self-center w-full lg:self-start lg:w-1/2">
                     <img class="w-full lg:max-w-md" src="~/assets/EFRE-Banner.jpg" alt="Banner Europäischer Fonds für regionale Entwicklung" />
                 </div>
             </div>
